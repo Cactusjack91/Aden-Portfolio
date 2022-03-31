@@ -1,0 +1,42 @@
+.about-container {
+    font-family: Arial;
+    font-weight: 900;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: min(80%, 62.5rem);
+    color: #fff;
+    font-size: 1.25rem;
+    line-height: 120%;
+}
+
+.about-container h2 {
+    color: white;
+    font-family: Arial;
+    font-weight: 900;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    font-size: 2.9rem;
+    text-align: center;
+    /* transform: skew(60deg, -30deg); */
+    margin-bottom: 3rem;
+}
+
+.about-container h2:hover {
+    color: #FA5214;
+}
+
+.about-container p {
+    margin-top: 1.3rem;
+}
+
+@media (min-width:500px) {
+    .about-container {
+        font-size: 1.9rem;
+    }
+
+    .about-container h2 {
+        font-size: 3rem;
+    }
+}

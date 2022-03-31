@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact ADC</title>
+    <!-- lottie animation  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.8/lottie.min.js"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/f097bbc8ac.js" crossorigin="anonymous"></script>
+    <!-- spitting.js -->
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" />
+    <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
+</head>
+
+
+<body>
+    <!-- preloader  -->
+    <div id="preloader">
+        <div class="sk-circle">
+            <div class="sk-circle1 sk-child"></div>
+            <div class="sk-circle2 sk-child"></div>
+            <div class="sk-circle3 sk-child"></div>
+            <div class="sk-circle4 sk-child"></div>
+            <div class="sk-circle5 sk-child"></div>
+            <div class="sk-circle6 sk-child"></div>
+            <div class="sk-circle7 sk-child"></div>
+            <div class="sk-circle8 sk-child"></div>
+            <div class="sk-circle9 sk-child"></div>
+            <div class="sk-circle10 sk-child"></div>
+            <div class="sk-circle11 sk-child"></div>
+            <div class="sk-circle12 sk-child"></div>
+        </div>
+    </div>
+    <!-- end of preloader -->
+
+    <!-- logo container -->
+    <div class="logo-container">
+        <div class="word-logo">
+            <div class="eye">
+            </div>
+            <div class="eye"></div>
+        </div>
+
+        <div class="logo">
+            <a href="index.html" class="smile-it" data-splitting>Back to Home</a>
+        </div>
+    </div>
+    <!-- end of logo container -->
+
+    <div class="contact-container">
+        <h2>Contact Me</h2>
+
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mailbox" width="200" height="200"
+            viewBox="0 0 24 24" stroke-width="1.3" stroke="#ffffff" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M10 21v-6.5a3.5 3.5 0 0 0 -7 0v6.5h18v-6a4 4 0 0 0 -4 -4h-10.5" />
+            <path d="M12 11v-8h4l2 2l-2 2h-4" />
+            <path d="M6 15h1" />
+        </svg>
+
+
+        <a href="#" class="fancylink bounce-it" data-splitting>Chunmeng1103@gmail.com</a>
+    </div>
+
+    <ul id="social-sidebar">
+        <li>
+            <a href="https://www.behance.net/0e3506dd" target="_blank"><i class="fa-brands fa-behance"></i></a>
+        </li>
+        <li>
+            <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+        </li>
+        <li>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </li>
+    </ul>
+
+    <!-- lottie bg -->
+    <div class="lottie"><a href="#"></a></div>
+    <!-- lottie bg end-->
+
+    <!-- script tag  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+    <script>
+        Splitting();
+    </script>
+    <script>
+        var loader = document.getElementById('preloader');
+        window.addEventListener('load', function () {
+            loader.classList.add('preload-finish');
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+.contact-container {
+    font-family: Arial;
+    font-weight: 900;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: min(80%, 62.5rem);
+    color: #fff;
+    font-size: 1.25rem;
+    line-height: 120%;
+    text-align: center;
+}
+
+.contact-container svg {
+    margin-top: 1.3rem;
+}
+
+.contact-container h2 {
+    color: #FA5214;
+    font-family: Arial;
+    font-weight: 900;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    font-size: 2.9rem;
+    text-align: center;
+    line-height: 120%;
+    /* transform: skew(60deg, -30deg); */
+    /* margin-bottom: 3rem; */
+}
+
+.fancylink {
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 1.3rem;
+    font-size: 1.1rem;
+}
+
+.bounce-it .char {
+    line-height: 1;
+    transform-origin: center bottom;
+    animation-timing-function: cubic-bezier(0.77, 0.02, 0.11, 0.97);
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-delay: calc(0.05s * var(--char-index));
+    animation-duration: calc(0.2s + (0.03s * var(--char-total)));
+}
+
+.bounce-it:hover .char {
+    animation-name: bounce-char;
+}
+
+@keyframes bounce-end {
+    to {
+        transform: translateY(0%) scale(1);
+    }
+}
+
+@keyframes bounce-char {
+    20% {
+        transform: translateY(0%) scale(1.3, .8);
+    }
+
+    70% {
+        transform: translateY(-40%) scale(.8, 1.2);
+    }
+}
+
+
+@media (min-width:500px) {
+    .contact-container {
+        font-size: 1.9rem;
+    }
+
+    .contact-container h2 {
+        font-size: 3rem;
+    }
+
+    .fancylink {
+        font-size: 1.40rem;
+    }
+
+
+}
